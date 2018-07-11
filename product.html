@@ -1,0 +1,582 @@
+ <!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>المخزن</title>
+
+                <script src="js/jquery-3.1.1.min.js"></script>
+                <script src="js/jquery-ui.js"></script>
+                <script src="js/test.js"></script>
+                <script src="js/jquery.zoom.js"></script>
+                <script src="js/lightbox.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/html5shiv.min.js"></script>
+                <script src="js/respond.min.js"></script>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstraprtl.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media1.css">
+    </head>
+    <body>
+
+
+		 <!-- start section product -->
+            <section class="product-info">
+                <div class="container">
+                        <div id="main_area">
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+
+                            <div class="col-sm-8" id="carousel-text">
+
+                            <div id="slide-content">
+                                <div class="slide-content">
+                                    <div class="slide-info">
+                                           <h4>مصباح خشب بني بزجاج مطبوع, مفتوح من فوق</h4>
+                                    <span>0 الطلبات</span>
+                                    <p><strong>كود المنتج:</strong>  #FR002</p>
+                                    <p>الاتاحة:  1 متوفر في المخزون</p>
+                                    <p>المصمم : Exotic</p>
+                                    <p>اللون :</p>
+                                        <div class="prod-color center-block">
+                                           <ul class="list-unstyled">
+                                                <li><a href="#">فضي</a></li>
+                                                <li><a href="#">ابيض</a></li>
+                                                <li><a href="#">احمر</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide-price">
+                                        <p><strong>السعر:</strong> 2,000 EGP  </p>
+                                    </div>
+
+                                    <div class="total-item">
+                                        <form class="increase">
+                                            <label>QTY :</label>
+                                          <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i class="fa fa-plus"></i></div>
+
+                                          <input type="number" id="number" value="1"  min="1" max="10">
+                                             <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i class="fa fa-minus"></i>
+                                            </div>
+                                        </form>
+                                        <a href="#" class="btn btn-block btn-primary">اضافة الي العربة <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <a href="#" class="example-image-link" data-lightbox="example-9">
+                                            <i class="fa fa-heart-o"></i></a>
+                                            <a href="#"><i class="fa fa-toggle-on"></i></a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                            <div class="col-sm-4" id="carousel-bounding-box">
+                        <ul class="hide-bullets">
+                            <li>
+                                <a class="thumbnail" id="carousel-selector-3"><img src="images/FR002-4.jpg"></a>
+                            </li>
+
+                            <li>
+                                <a class="thumbnail" id="carousel-selector-2">    <img src="images/FR002-5-767x1024.jpg" >
+                                </a>
+                            </li>
+
+
+                            <li >
+                                <a class="thumbnail" id="carousel-selector-1"><img src="images/FR002-2-767x1024.jpg">
+                                </a>
+                            </li>
+
+                            <li >
+                                <a class="thumbnail" id="carousel-selector-0"><img src="images/FR002-1.jpg"></a>
+                            </li>
+
+                        </ul>
+
+
+                        <div class="carousel slide carousels-item" id="myCarousel">
+                                    <!-- Carousel items -->
+                        <div class="carousel-inner item-carousel">
+                            <div class="active item"  data-slide-number="0">
+
+                            <a class="example-image-link zoom" href="images/FR002-1.jpg" data-lightbox="example-2" id='ex1'>
+                                <img class="example-image" src="images/FR002-1.jpg" width="300" height="300">
+                                </a>
+
+                            </div>
+
+                            <div class="item" data-slide-number="1">
+                              <a class="example-image-link zoom" href="images/FR002-2-767x1024.jpg" data-lightbox="example-2" id='ex2'>
+                                <img class="example-image" src="images/FR002-2-767x1024.jpg" width="300" height="300">
+                                </a>
+
+                            </div>
+
+                            <div class="item" data-slide-number="2">
+                                <a class="example-image-link zoom" href="images/FR002-5-767x1024.jpg" data-lightbox="example-2" id='ex3'>
+                            <img src="images/FR002-5-767x1024.jpg" width="300" height="300">
+                                </a>
+                            </div>
+
+                            <div class="item" data-slide-number="2">
+                                <a class="example-image-link zoom" href="images/FR002-4.jpg" data-lightbox="example-2" id='ex4'>
+                            <img src="images/FR002-4.jpg" width="300" height="300">
+                                </a>
+                            </div>
+
+
+                                    </div><!-- Carousel nav -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                    </div>
+                                <div class="row" id="slider-thumbs">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                        </div>
+
+                </div>
+            </section>
+        <!-- end section product -->
+
+        <!--start section adv product -->
+            <section class="product-adv">
+                <div class="container">
+                    <div class="main-pro-adv">
+                        <i class="fa fa-close"></i>
+                            <a href="#">
+                                <img src="images/Coffee-rack-2-300x360.jpg">
+                            </a>
+                    </div>
+                </div>
+            </section>
+
+        <!-- end section adv product -->
+
+        <!-- start section description product -->
+            <section class="description-pro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                          <!-- Tabs -->
+                            <div id="tabs">
+	       <ul>
+                <li class="list-active"><a href="#tabs-1">الوصف</a></li>
+                <li><a href="#tabs-2">(0)المرجعات</a></li>
+                <li><a href="#tabs-3">الوسوم</a></li>
+	   </ul>
+	           <div id="tabs-1">
+                    <h4>الوصف</h4>
+                    <p>نوع المنتج: مصباح خشب بني بزجاج مطبوع, مفتوح من فوق</p>
+                    <p>اللون: بني</p>
+                    <p>المقاس: 30 سم × 30 سم × 50 سم</p>
+
+             </div>
+	                   <div id="tabs-2">
+                        <label>التعليق :</label>
+                        <textarea></textarea>
+                           <div class="rating col-md-12">
+                                <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="fa fa-star"></i>
+                               <input type="submit" value="أضف ">
+                        </div>
+                    </div>
+	               <div id="tabs-3"></div>
+</div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- end section description product -->
+
+
+        <!-- start related sections -->
+        <section class="realted">
+            <div class="container">
+                <div class="row">
+                    <div class="row title">
+            <div class="col-md-12">
+                <span class="">
+                      منتجات ذات صله
+                </span>
+                <div class="">
+<!--                 Controls -->
+                <div class="controls pull-right">
+                    <a class="left fa fa-chevron-right btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a><a class="right fa fa-chevron-left btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+                 <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/TB001-5-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>أسورة فضه أسترلينج 925 تصميم مستوحى من زهرة التيوليب</h5>
+                                            <h5 class="price-text-color">
+                                                2,350 EGP</h5>
+                                        </div>
+                                        <div class="rating col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!--class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                  <a href="#">
+                                      <img src="images/51654136f00be33cd49d033bacc1b534.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                                مكتبة كورنر دورين خشب فنلندي وموسكى, قشره أرو, دهانات استر</h5>
+                                            <h5 class="price-text-color">
+                                                2,350 EGP</h5>
+                                        </div>
+                                        <div class="rating col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/Colored-Shelves-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                وحدة أرفف مُلونة أحجام عشوائية, خشب باليت, لغرف النوم أو المعيشة </h5>
+                                            <h5 class="price-text-color">
+                                                EGP700</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/WaterMark_2018-01-23-12-06-31-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                                محفظة حفر على الجلد حريمى, بطانه جلد طبيعى مقاس كبير ٢٠×١٠سم</h5>
+                                            <h5 class="price-text-color">
+                                                EGP200</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/TB001-5-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>أسورة فضه أسترلينج 925 تصميم مستوحى من زهرة التيوليب</h5>
+                                            <h5 class="price-text-color">
+                                                2,350 EGP</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com" class="">إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com" class=""> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                  <a href="#">
+                                      <img src="images/51654136f00be33cd49d033bacc1b534.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                                مكتبة كورنر دورين خشب فنلندي وموسكى, قشره أرو, دهانات استر</h5>
+                                            <h5 class="price-text-color">
+                                                2,350 EGP</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/Colored-Shelves-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                وحدة أرفف مُلونة أحجام عشوائية, خشب باليت, لغرف النوم أو المعيشة </h5>
+                                            <h5 class="price-text-color">
+                                                EGP700</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""-->إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com"><!-- class=""--> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="col-item item3">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/WaterMark_2018-01-23-12-06-31-300x360.jpg" class="img-responsive" alt="a" />
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12">
+                                            <h5>
+                                                محفظة حفر على الجلد حريمى, بطانه جلد طبيعى مقاس كبير ٢٠×١٠سم</h5>
+                                            <h5 class="price-text-color">
+                                                EGP200</h5>
+                                        </div>
+                                        <div class="rating  col-md-12">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                     <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="http://www.jquery2dotnet.com" class="">إضافة إلى العربة</a>
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </p>
+                                        <p class="btn-details">
+                                            <a href="http://www.jquery2dotnet.com" class=""> التفاصيل</a>
+                                            <i class="fa fa-list"></i>
+                                        </p>
+                                    </div>
+										</div>
+										</div>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end related section -->
+        
+        <!-- start comments -->
+         <section class="comments">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-md-9 col-xs-12"> 
+                                    <h4>التقيمات</h4>
+                                </div>
+                                    <div class="col-md-3 col-xs-12">
+                                    <a href="#">ترتيب حسب</a>
+                                    <select>
+                                        <option>الاحدث</option>
+                                        <option>التقيمات الادني</option>
+                                        <option>التقيمات الاعلي</option>
+                                    </select> 
+                                </div>
+                            </div>
+                            <div class="desc-comment">
+                                <div class="personal-comment">
+                                       <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="fa fa-star"></i>
+                                <p>بواسطة : <span class="name">احمد المصري</span> <span>19/12/2018</span></p>
+                                <p>منتج جيد</p>
+                                
+                                </div>
+                                
+                                  <div class="personal-comment">
+                                       <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="fa fa-star"></i>
+                                <p>بواسطة : <span class="name">احمد المصري</span> <span>19/12/2018</span></p>
+                                <p>منتج جيد</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- end section comments -->
+
+
+    </body>
+</html>
